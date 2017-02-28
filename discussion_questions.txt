@@ -1,0 +1,64 @@
+Runtime
+
+1. You would have to manually check to see if your box of animal crackers contains
+an elephant. Worst case scenario, you would have to look at each one before finding
+the elephant last. The work load increases with the size of the box of animal crackers.
+O(n).
+
+2.  O(1), O(log n), O(n), O(n log n), O(2^n), O(n^2)
+
+Stacks and Queues
+
+1. 
+
+    1. A stack would be more appropriate, because you would want the last thing in to 
+    be the first thing out for ease of unloading.
+
+    2. A queue would be appropriate for putting caps on bottles of beer, as you 
+    would want the first in to be the first out. That way you could efficiently 
+    keep up with the assembly line.
+
+    3. A stack is better for this, because when your are breaking things into smaller
+    pieces doing part of the work, and then returning to the original problem stacks 
+    are better.
+
+2. Queues
+
+    1. Reading books in a series.
+
+    2. Printing documents on a printer is a queue.
+
+3. Stacks
+
+    1. Recursion is a stack in memory! 
+
+    2. Undo button in most text editors.
+
+Linked Lists
+
+1. There is an Apple node, a Berry node, and a Cherry node. We can assume that 
+the data is also Apple, Berry, and Cherry, because that is the Hackbright way, and 
+typically the node and the data will be the same in toy examples like these, though
+not always. The head is Apple and the tail is Cherry. Apple is the head, it points to Berry, 
+Berry points to Cherry, Cherry is the tail, Cherry points to None.
+
+2. A single linked list only points to the next node. A double linked list points 
+in both directions.
+
+3. The runtime is better if we keep track of the tail O(1), as we can just append 
+to the end of the list without having to traverse. If we had to traverse the list
+to find the end, it would be O(n).
+
+Trees
+
+1. Given a breadth first search, the order of nodes would be: food, Italian, Indian,
+Mexican, lasagna, pizza, tikka masala, saag, burritos.
+
+2. Given a depth first search, assuming we start from the right, the order of 
+nodes would be: food, Mexican, enchiladas, tacos, burritos, Indian, saag, tikka 
+masala, Italian, pizza, Sicilian, New York-style, Chicago-style.
+
+3. A binary tree limits the amount of children each parent can have to two. A binary 
+search tree would allow for a better run time than a regular tree, given it is 
+constructed correctly, as the tree could always direct you to go right or left depending 
+on what you are looking for is a higher or a lower value.
